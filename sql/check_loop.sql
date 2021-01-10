@@ -1,3 +1,4 @@
+-- Checks for if any of the columns have unsolved cell
 SELECT COUNT(*)
 FROM solving
     WHERE  "1" = ""

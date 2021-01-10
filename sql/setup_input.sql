@@ -1,3 +1,5 @@
+-- Setup initial table that'll contain puzzle
+
 DROP TABLE IF EXISTS {table_name} ;
 
 CREATE TABLE IF NOT EXISTS {table_name} (

@@ -1,3 +1,5 @@
+-- Setup intermediary table for looping
+
 DROP TABLE IF EXISTS loop_staging ;
 CREATE TABLE IF NOT EXISTS loop_staging (
     "1" TEXT,

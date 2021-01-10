@@ -1,3 +1,6 @@
+-- Setup tables that will be used for solving puzzle
+
+-- Solving table 
 DROP TABLE IF EXISTS solving ;
 CREATE TABLE IF NOT EXISTS solving (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

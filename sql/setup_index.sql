@@ -1,3 +1,5 @@
+-- Creates index table that will store, columns, rows, and squares of the sudoku puzzles into a columnar format.
+
 DROP TABLE IF EXISTS index_column ;
 CREATE TABLE IF NOT EXISTS index_column (   
     id INTEGER PRIMARY KEY AUTOINCREMENT,

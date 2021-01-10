@@ -1,3 +1,5 @@
+-- Checks for possible values and insert only solved values or unique possibility
+
 -- ROW ONE
 INSERT INTO solving ("1", "2", "3", "4", "5", "6", "7", "8", "9")
 VALUES (
