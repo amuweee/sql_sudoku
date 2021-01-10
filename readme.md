@@ -1,6 +1,6 @@
 # Sudoku solver in SQL
 
-Soving sudoku in the worst way, hard coded SQL statements!  
+Soving sudoku in the worst way possible, hard coded SQL statements!  
 Python code only exists to call sql commands to interact with sqlite3 database.  
 All solving methods are written in simplest form of sql keywords (create table, select, insert, etc.) Only simple sql keywords used, ie no declaring variables, window functions, or recusives.
 
