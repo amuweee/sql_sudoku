@@ -15,6 +15,7 @@ Run solver with
 ```shell
 python solver.py
 ```
+See for solutions under `output/` directory.
 
 ## FAQ  
 
