@@ -116,7 +116,7 @@ class SudokuDB(object):
             file_name = self.table_name + "_incomplete.csv"
         with open("sql/{}".format(self.save_output_command)) as sql:
             result = self.cur.execute(sql.read())
-        with open("output/{}".format(file_name), "w") as file:
+        with open("output/{}".format(file_name), "w+") as file:
             csv.writer(file).writerows(result)
 
     def tear_down(self):
